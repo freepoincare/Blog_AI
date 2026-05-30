@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
+    - "!**/*.md"
 
 website:
   description: "A blog built with Quarto"
@@ -19,9 +22,4 @@ format:
       - cosmo
       - brand
     css: styles.css
-
-render:
-  - posts/**/*.qmd
-  - "!posts/**/draft.md"
-  - "!posts/**/search.md"
 
