@@ -88,49 +88,6 @@
   <media:content url="https://your-website-url.example.com/posts/antigravity/thumbnail.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
-  <pubDate>Thu, 28 May 2026 15:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
-  <pubDate>Mon, 25 May 2026 15:00:00 GMT</pubDate>
-</item>
-<item>
   <title></title>
   <link>https://your-website-url.example.com/posts/antigravity/draft.html</link>
   <description><![CDATA[ 
@@ -186,7 +143,7 @@
 
  ]]></description>
   <guid>https://your-website-url.example.com/posts/antigravity/draft.html</guid>
-  <pubDate>Sat, 30 May 2026 04:11:27 GMT</pubDate>
+  <pubDate>Sat, 30 May 2026 04:17:15 GMT</pubDate>
 </item>
 <item>
   <title></title>
@@ -234,7 +191,7 @@
 
  ]]></description>
   <guid>https://your-website-url.example.com/posts/antigravity/search.html</guid>
-  <pubDate>Sat, 30 May 2026 04:11:27 GMT</pubDate>
+  <pubDate>Sat, 30 May 2026 04:17:15 GMT</pubDate>
 </item>
 </channel>
 </rss>
