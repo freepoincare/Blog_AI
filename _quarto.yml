@@ -20,5 +20,8 @@ format:
       - brand
     css: styles.css
 
-
+render:
+  - posts/**/*.qmd
+  - "!posts/**/draft.md"
+  - "!posts/**/search.md"
 

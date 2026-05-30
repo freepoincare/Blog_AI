@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/antigravity/search.html",
+    "href": "posts/antigravity/search.html",
+    "title": "Search Results: Antigravity CLI vs Gemini CLI",
+    "section": "",
+    "text": "Google has announced Antigravity CLI (agy) as the successor to Gemini CLI (gemini). This transition marks a shift from single-agent assistance to multi-agent orchestration under the Antigravity 2.0 platform.\n\n\n\n\nLanguage/Platform: Gemini CLI is Node.js-based, while Antigravity CLI is built with Go for better performance.\nArchitecture: Gemini uses a reactive single-agent model. Antigravity uses an asynchronous multi-agent orchestration model.\nPerformance: Antigravity offers near-instant startup times and parallel task execution.\nCommands: New commands include /goal, /schedule, /BTW, and /fork.\n\n\n\n\n\nInstallation: curl -fsSL https://antigravity.google/cli/install.sh | bash\nMigration Deadline: June 18, 2026 for free/individual users.\nAsset Transfer: agy plugin import gemini and moving skills from .gemini/skills/ to .agents/skills/.\n\n\n\n\n\nGoogle Official Announcement - Antigravity CLI\nMigrating to Antigravity 2.0 - Medium\nAntigravity vs Gemini: Technical Deep Dive - Virtualization Review\nAntigravity CLI Walkthrough - YouTube"
+  },
+  {
+    "objectID": "posts/antigravity/search.html#overview",
+    "href": "posts/antigravity/search.html#overview",
+    "title": "Search Results: Antigravity CLI vs Gemini CLI",
+    "section": "",
+    "text": "Google has announced Antigravity CLI (agy) as the successor to Gemini CLI (gemini). This transition marks a shift from single-agent assistance to multi-agent orchestration under the Antigravity 2.0 platform."
+  },
+  {
+    "objectID": "posts/antigravity/search.html#key-differences",
+    "href": "posts/antigravity/search.html#key-differences",
+    "title": "Search Results: Antigravity CLI vs Gemini CLI",
+    "section": "",
+    "text": "Language/Platform: Gemini CLI is Node.js-based, while Antigravity CLI is built with Go for better performance.\nArchitecture: Gemini uses a reactive single-agent model. Antigravity uses an asynchronous multi-agent orchestration model.\nPerformance: Antigravity offers near-instant startup times and parallel task execution.\nCommands: New commands include /goal, /schedule, /BTW, and /fork."
+  },
+  {
+    "objectID": "posts/antigravity/search.html#installation-migration",
+    "href": "posts/antigravity/search.html#installation-migration",
+    "title": "Search Results: Antigravity CLI vs Gemini CLI",
+    "section": "",
+    "text": "Installation: curl -fsSL https://antigravity.google/cli/install.sh | bash\nMigration Deadline: June 18, 2026 for free/individual users.\nAsset Transfer: agy plugin import gemini and moving skills from .gemini/skills/ to .agents/skills/."
+  },
+  {
+    "objectID": "posts/antigravity/search.html#references",
+    "href": "posts/antigravity/search.html#references",
+    "title": "Search Results: Antigravity CLI vs Gemini CLI",
+    "section": "",
+    "text": "Google Official Announcement - Antigravity CLI\nMigrating to Antigravity 2.0 - Medium\nAntigravity vs Gemini: Technical Deep Dive - Virtualization Review\nAntigravity CLI Walkthrough - YouTube"
+  },
+  {
+    "objectID": "posts/antigravity/draft.html",
+    "href": "posts/antigravity/draft.html",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "The world of command-line AI is evolving faster than ever. For years, Gemini CLI has been our faithful companion, turning complex tasks into simple commands. But what if you could do more than just talk to one agent? What if you could orchestrate a symphony of specialized agents working in parallel to solve your most complex problems? Enter Antigravity CLI (agy)—the official successor to Gemini CLI. Are you ready to migrate?\n\n\n\n\nParallel Multi-Agent Orchestration: Unlike Gemini’s single-agent approach, Antigravity can spin up multiple subagents simultaneously to tackle different parts of a project at once.\nGo-Based Performance: Rewritten in Go, the new CLI offers near-instant startup times and significantly lower resource overhead compared to the Node.js-based Gemini CLI.\nAdvanced Workflow Commands: New capabilities like /goal for complex task management and /schedule for recurring agentic workflows redefine what’s possible in a terminal.\n\n\n\n\n\n\nGemini CLI operates on a reactive, single-agent model. You ask, it answers. Antigravity CLI introduces Parallel Subagents. Imagine you are building a new feature. With Antigravity, you can use the /goal command: &gt; agy /goal \"Implement a new authentication module with tests and documentation\" Behind the scenes, Antigravity spins up three subagents: one to write the code, one to draft the tests, and one to generate documentation. They work in parallel, communicating via a shared context, and deliver the result in a fraction of the time.\n\n\n\nOne of the most immediate changes you’ll notice is speed. Gemini CLI, being Node.js-based, has a slight delay during startup. Antigravity is a compiled Go binary. This means: - Instant Start: No more waiting for the Node runtime to initialize. - Lower Memory Footprint: Better efficiency when running long-lived background tasks. - Simplified Distribution: A single binary that works across systems without worrying about Node versions.\n\n\n\nGoogle has made the transition as painless as possible. You don’t have to start from scratch. - Importing Plugins: Use agy plugin import gemini to bring your favorite extensions over. - Config Compatibility: Your existing GEMINI.md and AGENTS.md files are fully supported. - The “Doctor” Tool: Run agy doctor to verify your environment and get tips on optimizing your setup for the new platform.\n\n\n\n\nThe sunsetting of Gemini CLI on June 18, 2026, isn’t just an end; it’s a beginning. Antigravity CLI represents a shift toward more autonomous, efficient, and powerful AI interactions. By moving to agy, you’re not just changing a command; you’re upgrading your entire development workflow to be more asynchronous and agent-centric. The future of the CLI is here, and it’s weightless.\n\n\n\n\nGoogle Official Announcement - Antigravity CLI\nMigrating to Antigravity 2.0 - Medium\nAntigravity vs Gemini: Technical Deep Dive - Virtualization Review\nAntigravity CLI Walkthrough - YouTube"
+  },
+  {
+    "objectID": "posts/antigravity/draft.html#introduction-are-you-ready-for-the-next-leap-in-ai-orchestration",
+    "href": "posts/antigravity/draft.html#introduction-are-you-ready-for-the-next-leap-in-ai-orchestration",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "The world of command-line AI is evolving faster than ever. For years, Gemini CLI has been our faithful companion, turning complex tasks into simple commands. But what if you could do more than just talk to one agent? What if you could orchestrate a symphony of specialized agents working in parallel to solve your most complex problems? Enter Antigravity CLI (agy)—the official successor to Gemini CLI. Are you ready to migrate?"
+  },
+  {
+    "objectID": "posts/antigravity/draft.html#key-highlights-why-antigravity-is-a-game-changer",
+    "href": "posts/antigravity/draft.html#key-highlights-why-antigravity-is-a-game-changer",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "Parallel Multi-Agent Orchestration: Unlike Gemini’s single-agent approach, Antigravity can spin up multiple subagents simultaneously to tackle different parts of a project at once.\nGo-Based Performance: Rewritten in Go, the new CLI offers near-instant startup times and significantly lower resource overhead compared to the Node.js-based Gemini CLI.\nAdvanced Workflow Commands: New capabilities like /goal for complex task management and /schedule for recurring agentic workflows redefine what’s possible in a terminal."
+  },
+  {
+    "objectID": "posts/antigravity/draft.html#deep-dive-the-transition-from-gemini-to-antigravity",
+    "href": "posts/antigravity/draft.html#deep-dive-the-transition-from-gemini-to-antigravity",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "Gemini CLI operates on a reactive, single-agent model. You ask, it answers. Antigravity CLI introduces Parallel Subagents. Imagine you are building a new feature. With Antigravity, you can use the /goal command: &gt; agy /goal \"Implement a new authentication module with tests and documentation\" Behind the scenes, Antigravity spins up three subagents: one to write the code, one to draft the tests, and one to generate documentation. They work in parallel, communicating via a shared context, and deliver the result in a fraction of the time.\n\n\n\nOne of the most immediate changes you’ll notice is speed. Gemini CLI, being Node.js-based, has a slight delay during startup. Antigravity is a compiled Go binary. This means: - Instant Start: No more waiting for the Node runtime to initialize. - Lower Memory Footprint: Better efficiency when running long-lived background tasks. - Simplified Distribution: A single binary that works across systems without worrying about Node versions.\n\n\n\nGoogle has made the transition as painless as possible. You don’t have to start from scratch. - Importing Plugins: Use agy plugin import gemini to bring your favorite extensions over. - Config Compatibility: Your existing GEMINI.md and AGENTS.md files are fully supported. - The “Doctor” Tool: Run agy doctor to verify your environment and get tips on optimizing your setup for the new platform."
+  },
+  {
+    "objectID": "posts/antigravity/draft.html#conclusion-the-road-ahead",
+    "href": "posts/antigravity/draft.html#conclusion-the-road-ahead",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "The sunsetting of Gemini CLI on June 18, 2026, isn’t just an end; it’s a beginning. Antigravity CLI represents a shift toward more autonomous, efficient, and powerful AI interactions. By moving to agy, you’re not just changing a command; you’re upgrading your entire development workflow to be more asynchronous and agent-centric. The future of the CLI is here, and it’s weightless."
+  },
+  {
+    "objectID": "posts/antigravity/draft.html#references",
+    "href": "posts/antigravity/draft.html#references",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "Google Official Announcement - Antigravity CLI\nMigrating to Antigravity 2.0 - Medium\nAntigravity vs Gemini: Technical Deep Dive - Virtualization Review\nAntigravity CLI Walkthrough - YouTube"
+  },
+  {
+    "objectID": "GEMINI.html",
+    "href": "GEMINI.html",
+    "title": "blog",
+    "section": "",
+    "text": "For blog generation, it must be in English. Follow these steps:\n\n\nCreate a new directory inside the posts directory, using a single word based on the keyword as its name. Save all subsequently created files in this directory.\n\nExample: posts/sunset\nThis directory name will be used as the keyword.\n\nUse the GoogleSearch tool based on the keyword to search for the latest information, and document it in search.md.\n\nSummarize at least 3 or more related sources, and ensure the URLs of the referenced webpages are included in search.md.\n\nGenerate a thumbnail image suitable for a blog post explaining the keyword.\n\nSave the generated image in the posts/sunset/ directory (if the keyword is ‘sunset’) under the name thumbnail.jpg.\n\nWrite a draft of the blog post based on the contents of search.md and save it in draft.md.\n\nRefer to the following structure for the article, and maintain a professional yet easy-to-understand tone:\n\nIntroduction: Start with an engaging question to grab the readers’ interest.\nKey Summary: Summarize and explain the 3 most important points.\nDetailed Explanation: Elaborate on each point with specific examples.\nConclusion: Wrap up with the significance of the topic and an outlook on its future impact.\nReferences: Provide links to the sources referenced in search.md.\n\n\nWrite the final blog post based on the contents of draft.md.\n\nPut the thumbnail.jpg image at the top of the blog and then the contents.\n\nWrite the final blog post in index.qmd using draft.md and the previously generated images (don’t do the rendering with the files .md).\n\nAdd the embed-resources: true configuration to the header of index.qmd so that the images are properly embedded.\n\nFinally, publish the blog post using the quarto publish tool (make sure not to render .md files)."
+  },
+  {
+    "objectID": "GEMINI.html#blog-generation",
+    "href": "GEMINI.html#blog-generation",
+    "title": "blog",
+    "section": "",
+    "text": "For blog generation, it must be in English. Follow these steps:\n\n\nCreate a new directory inside the posts directory, using a single word based on the keyword as its name. Save all subsequently created files in this directory.\n\nExample: posts/sunset\nThis directory name will be used as the keyword.\n\nUse the GoogleSearch tool based on the keyword to search for the latest information, and document it in search.md.\n\nSummarize at least 3 or more related sources, and ensure the URLs of the referenced webpages are included in search.md.\n\nGenerate a thumbnail image suitable for a blog post explaining the keyword.\n\nSave the generated image in the posts/sunset/ directory (if the keyword is ‘sunset’) under the name thumbnail.jpg.\n\nWrite a draft of the blog post based on the contents of search.md and save it in draft.md.\n\nRefer to the following structure for the article, and maintain a professional yet easy-to-understand tone:\n\nIntroduction: Start with an engaging question to grab the readers’ interest.\nKey Summary: Summarize and explain the 3 most important points.\nDetailed Explanation: Elaborate on each point with specific examples.\nConclusion: Wrap up with the significance of the topic and an outlook on its future impact.\nReferences: Provide links to the sources referenced in search.md.\n\n\nWrite the final blog post based on the contents of draft.md.\n\nPut the thumbnail.jpg image at the top of the blog and then the contents.\n\nWrite the final blog post in index.qmd using draft.md and the previously generated images (don’t do the rendering with the files .md).\n\nAdd the embed-resources: true configuration to the header of index.qmd so that the images are properly embedded.\n\nFinally, publish the blog post using the quarto publish tool (make sure not to render .md files)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "Beyond Gemini: Embracing the Future with Antigravity CLI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSearch Results: Antigravity CLI vs Gemini CLI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeyond Gemini: Embracing the Future with Antigravity CLI\n\n\n\nAI\n\nCLI\n\nGoogle\n\n\n\n\n\n\n\n\n\nMay 29, 2026\n\n\nGemini CLI\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 29, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/antigravity/index.html",
+    "href": "posts/antigravity/index.html",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "The world of command-line AI is evolving faster than ever. For years, Gemini CLI has been our faithful companion, turning complex tasks into simple commands. But what if you could do more than just talk to one agent? What if you could orchestrate a symphony of specialized agents working in parallel to solve your most complex problems? Enter Antigravity CLI (agy)—the official successor to Gemini CLI. Are you ready to migrate?"
+  },
+  {
+    "objectID": "posts/antigravity/index.html#introduction-are-you-ready-for-the-next-leap-in-ai-orchestration",
+    "href": "posts/antigravity/index.html#introduction-are-you-ready-for-the-next-leap-in-ai-orchestration",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "",
+    "text": "The world of command-line AI is evolving faster than ever. For years, Gemini CLI has been our faithful companion, turning complex tasks into simple commands. But what if you could do more than just talk to one agent? What if you could orchestrate a symphony of specialized agents working in parallel to solve your most complex problems? Enter Antigravity CLI (agy)—the official successor to Gemini CLI. Are you ready to migrate?"
+  },
+  {
+    "objectID": "posts/antigravity/index.html#key-highlights-why-antigravity-is-a-game-changer",
+    "href": "posts/antigravity/index.html#key-highlights-why-antigravity-is-a-game-changer",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "Key Highlights: Why Antigravity is a Game Changer",
+    "text": "Key Highlights: Why Antigravity is a Game Changer\n\nParallel Multi-Agent Orchestration: Unlike Gemini’s single-agent approach, Antigravity can spin up multiple subagents simultaneously to tackle different parts of a project at once.\nGo-Based Performance: Rewritten in Go, the new CLI offers near-instant startup times and significantly lower resource overhead compared to the Node.js-based Gemini CLI.\nAdvanced Workflow Commands: New capabilities like /goal for complex task management and /schedule for recurring agentic workflows redefine what’s possible in a terminal."
+  },
+  {
+    "objectID": "posts/antigravity/index.html#deep-dive-the-transition-from-gemini-to-antigravity",
+    "href": "posts/antigravity/index.html#deep-dive-the-transition-from-gemini-to-antigravity",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "Deep Dive: The Transition from Gemini to Antigravity",
+    "text": "Deep Dive: The Transition from Gemini to Antigravity\n\n1. From Reactive to Orchestrated: The Multi-Agent Power\nGemini CLI operates on a reactive, single-agent model. You ask, it answers. Antigravity CLI introduces Parallel Subagents. Imagine you are building a new feature. With Antigravity, you can use the /goal command:\n\nagy /goal \"Implement a new authentication module with tests and documentation\"\n\nBehind the scenes, Antigravity spins up three subagents: one to write the code, one to draft the tests, and one to generate documentation. They work in parallel, communicating via a shared context, and deliver the result in a fraction of the time.\n\n\n2. Speed and Efficiency: The Go Advantage\nOne of the most immediate changes you’ll notice is speed. Gemini CLI, being Node.js-based, has a slight delay during startup. Antigravity is a compiled Go binary. This means:\n\nInstant Start: No more waiting for the Node runtime to initialize.\nLower Memory Footprint: Better efficiency when running long-lived background tasks.\nSimplified Distribution: A single binary that works across systems without worrying about Node versions.\n\n\n\n3. A Seamless Migration Path\nGoogle has made the transition as painless as possible. You don’t have to start from scratch.\n\nImporting Plugins: Use agy plugin import gemini to bring your favorite extensions over.\nConfig Compatibility: Your existing GEMINI.md and AGENTS.md files are fully supported.\nThe “Doctor” Tool: Run agy doctor to verify your environment and get tips on optimizing your setup for the new platform."
+  },
+  {
+    "objectID": "posts/antigravity/index.html#conclusion-the-road-ahead",
+    "href": "posts/antigravity/index.html#conclusion-the-road-ahead",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "Conclusion: The Road Ahead",
+    "text": "Conclusion: The Road Ahead\nThe sunsetting of Gemini CLI on June 18, 2026, isn’t just an end; it’s a beginning. Antigravity CLI represents a shift toward more autonomous, efficient, and powerful AI interactions. By moving to agy, you’re not just changing a command; you’re upgrading your entire development workflow to be more asynchronous and agent-centric. The future of the CLI is here, and it’s weightless."
+  },
+  {
+    "objectID": "posts/antigravity/index.html#references",
+    "href": "posts/antigravity/index.html#references",
+    "title": "Beyond Gemini: Embracing the Future with Antigravity CLI",
+    "section": "References",
+    "text": "References\n\nGoogle Official Announcement - Antigravity CLI\nMigrating to Antigravity 2.0 - Medium\nAntigravity vs Gemini: Technical Deep Dive - Virtualization Review\nAntigravity CLI Walkthrough - YouTube"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]
