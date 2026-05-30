@@ -42,6 +42,13 @@
     "text": "References\n\nGoogle Official Announcement - Antigravity CLI\nMigrating to Antigravity 2.0 - Medium\nAntigravity vs Gemini: Technical Deep Dive - Virtualization Review\nAntigravity CLI Walkthrough - YouTube"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "Master the CLI: A Complete Guide to Google Antigravity (agy)\n\n\n\nAI\n\nCLI\n\nGuide\n\nGoogle\n\n\n\n\n\n\n\n\n\nMay 30, 2026\n\n\nGemini CLI\n\n\n\n\n\n\n\n\n\n\n\n\nBeyond Gemini: Embracing the Future with Antigravity CLI\n\n\n\nAI\n\nCLI\n\nGoogle\n\n\n\n\n\n\n\n\n\nMay 29, 2026\n\n\nGemini CLI\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -49,10 +56,45 @@
     "text": "About this blog"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog",
+    "objectID": "posts/antigravity-guide/index.html",
+    "href": "posts/antigravity-guide/index.html",
+    "title": "Master the CLI: A Complete Guide to Google Antigravity (agy)",
     "section": "",
-    "text": "Beyond Gemini: Embracing the Future with Antigravity CLI\n\n\n\nAI\n\nCLI\n\nGoogle\n\n\n\n\n\n\n\n\n\nMay 29, 2026\n\n\nGemini CLI\n\n\n\n\n\nNo matching items"
+    "text": "The era of single-tasking AI is over. If you’ve been using the Gemini CLI, you know how powerful a terminal-based agent can be. But have you ever felt the need for speed—or wished your agent could handle multiple tasks at once without breaking a sweat? Meet Antigravity CLI (agy), the high-performance, Go-based successor that turns your terminal into a multi-agent command center. Whether you’re a seasoned developer or just starting, this guide will show you how to harness its full potential."
+  },
+  {
+    "objectID": "posts/antigravity-guide/index.html#introduction-is-your-terminal-stuck-in-the-past",
+    "href": "posts/antigravity-guide/index.html#introduction-is-your-terminal-stuck-in-the-past",
+    "title": "Master the CLI: A Complete Guide to Google Antigravity (agy)",
+    "section": "",
+    "text": "The era of single-tasking AI is over. If you’ve been using the Gemini CLI, you know how powerful a terminal-based agent can be. But have you ever felt the need for speed—or wished your agent could handle multiple tasks at once without breaking a sweat? Meet Antigravity CLI (agy), the high-performance, Go-based successor that turns your terminal into a multi-agent command center. Whether you’re a seasoned developer or just starting, this guide will show you how to harness its full potential."
+  },
+  {
+    "objectID": "posts/antigravity-guide/index.html#key-summary-why-you-should-switch-today",
+    "href": "posts/antigravity-guide/index.html#key-summary-why-you-should-switch-today",
+    "title": "Master the CLI: A Complete Guide to Google Antigravity (agy)",
+    "section": "Key Summary: Why You Should Switch Today",
+    "text": "Key Summary: Why You Should Switch Today\n\nParallel Orchestration: Run complex goals that spin up multiple specialized subagents simultaneously to tackle different parts of a project at once.\nLightning Performance: Built with Go, the new CLI offers near-instant startup times and significantly lower resource overhead.\nSeamless Extensibility: Easily create custom tools using “Agent Skills” or connect to local servers via the Model Context Protocol (MCP)."
+  },
+  {
+    "objectID": "posts/antigravity-guide/index.html#detailed-explanation-setting-up-and-using-antigravity",
+    "href": "posts/antigravity-guide/index.html#detailed-explanation-setting-up-and-using-antigravity",
+    "title": "Master the CLI: A Complete Guide to Google Antigravity (agy)",
+    "section": "Detailed Explanation: Setting Up and Using Antigravity",
+    "text": "Detailed Explanation: Setting Up and Using Antigravity\n\n1. Installation: Getting Started in Seconds\nInstalling Antigravity is designed to be a one-line process for any operating system. Open your terminal and run the appropriate command:\n\nWindows (PowerShell):\nirm https://antigravity.google/cli/install.ps1 | iex\nmacOS / Linux:\ncurl -fsSL https://antigravity.google/cli/install.sh | bash\nAfter the script finishes, restart your terminal. You can verify the installation by typing agy --version.\n\n\n\n2. Terminal Mastery: Commands and Shortcuts\nOnce inside the agy environment, you have several powerful ways to interact with the agent and your system: - Run Shell Commands: You don’t need to exit the CLI to run system commands. Prefix any command with ! to execute it directly (e.g., !npm install or !ls -la). - Slash Commands: Use built-in shortcuts like /fork to branch your conversation into a new workspace or /inspect to see active plugins and skills. - Asynchronous Workflows: For long-running tasks, use the /goal command. You can continue asking quick “By The Way” questions using /BTW while the main goal is being processed in the background.\n\n\n3. Configuration: The New Settings Standard\nAntigravity CLI replaces the traditional .env and settings.json manual edits with a more user-friendly interface. To manage your preferences, simply type: &gt; /config This command opens an interactive Terminal User Interface (TUI) where you can manage permissions, toggle features, and select your preferred models. Your settings are automatically synchronized and stored in ~/.gemini/antigravity-cli/settings.json.\n\n\n4. Custom Tools: Agent Skills and MCP\nExtending the CLI is easier than ever. - Agent Skills: These are simple Markdown files that define custom agent behaviors. You can place them in ~/.gemini/antigravity-cli/skills/ for global use, or in your project’s .agents/skills/ directory for project-specific commands. - MCP Servers: If you have custom local tools, you can configure them in ~/.gemini/config/mcp_config.json to give your agent access to specific databases, APIs, or local services."
+  },
+  {
+    "objectID": "posts/antigravity-guide/index.html#conclusion-elevate-your-development-workflow",
+    "href": "posts/antigravity-guide/index.html#conclusion-elevate-your-development-workflow",
+    "title": "Master the CLI: A Complete Guide to Google Antigravity (agy)",
+    "section": "Conclusion: Elevate Your Development Workflow",
+    "text": "Conclusion: Elevate Your Development Workflow\nTransitioning to Antigravity CLI is more than just a software update; it’s an upgrade to your entire development environment. By leveraging parallel subagents and the speed of a Go-native binary, you can focus more on high-level architecture and less on the minutiae of manual terminal management. The future of AI orchestration is here—it’s fast, multi-threaded, and ready for your next big project."
+  },
+  {
+    "objectID": "posts/antigravity-guide/index.html#references",
+    "href": "posts/antigravity-guide/index.html#references",
+    "title": "Master the CLI: A Complete Guide to Google Antigravity (agy)",
+    "section": "References",
+    "text": "References\n\nOfficial Antigravity CLI Documentation\nDev.to: Antigravity CLI Walkthrough\nMedium: Migrating to Antigravity 2.0\nPasquale Pillitteri: Antigravity CLI Technical Guide"
   }
 ]

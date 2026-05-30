@@ -5,3 +5,4 @@ bin/
 GEMINI.md
 posts/post-with-code/
 posts/welcome/
+.env

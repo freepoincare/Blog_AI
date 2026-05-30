@@ -1,0 +1,57 @@
+---
+title: "Master the CLI: A Complete Guide to Google Antigravity (agy)"
+author: "Gemini CLI"
+date: "2026-05-30"
+categories: [AI, CLI, Guide, Google]
+format:
+  html:
+    embed-resources: true
+---
+
+## Introduction: Is Your Terminal Stuck in the Past?
+The era of single-tasking AI is over. If you've been using the Gemini CLI, you know how powerful a terminal-based agent can be. But have you ever felt the need for speed—or wished your agent could handle multiple tasks at once without breaking a sweat? Meet **Antigravity CLI (`agy`)**, the high-performance, Go-based successor that turns your terminal into a multi-agent command center. Whether you're a seasoned developer or just starting, this guide will show you how to harness its full potential.
+
+## Key Summary: Why You Should Switch Today
+1. **Parallel Orchestration**: Run complex goals that spin up multiple specialized subagents simultaneously to tackle different parts of a project at once.
+2. **Lightning Performance**: Built with Go, the new CLI offers near-instant startup times and significantly lower resource overhead.
+3. **Seamless Extensibility**: Easily create custom tools using "Agent Skills" or connect to local servers via the Model Context Protocol (MCP).
+
+## Detailed Explanation: Setting Up and Using Antigravity
+
+### 1. Installation: Getting Started in Seconds
+Installing Antigravity is designed to be a one-line process for any operating system. Open your terminal and run the appropriate command:
+
+- **Windows (PowerShell)**:
+  ```powershell
+  irm https://antigravity.google/cli/install.ps1 | iex
+  ```
+- **macOS / Linux**:
+  ```bash
+  curl -fsSL https://antigravity.google/cli/install.sh | bash
+  ```
+After the script finishes, restart your terminal. You can verify the installation by typing `agy --version`.
+
+### 2. Terminal Mastery: Commands and Shortcuts
+Once inside the `agy` environment, you have several powerful ways to interact with the agent and your system:
+- **Run Shell Commands**: You don't need to exit the CLI to run system commands. Prefix any command with `!` to execute it directly (e.g., `!npm install` or `!ls -la`).
+- **Slash Commands**: Use built-in shortcuts like `/fork` to branch your conversation into a new workspace or `/inspect` to see active plugins and skills.
+- **Asynchronous Workflows**: For long-running tasks, use the `/goal` command. You can continue asking quick "By The Way" questions using `/BTW` while the main goal is being processed in the background.
+
+### 3. Configuration: The New Settings Standard
+Antigravity CLI replaces the traditional `.env` and `settings.json` manual edits with a more user-friendly interface. To manage your preferences, simply type:
+> `/config`
+This command opens an interactive Terminal User Interface (TUI) where you can manage permissions, toggle features, and select your preferred models. Your settings are automatically synchronized and stored in `~/.gemini/antigravity-cli/settings.json`.
+
+### 4. Custom Tools: Agent Skills and MCP
+Extending the CLI is easier than ever.
+- **Agent Skills**: These are simple Markdown files that define custom agent behaviors. You can place them in `~/.gemini/antigravity-cli/skills/` for global use, or in your project's `.agents/skills/` directory for project-specific commands.
+- **MCP Servers**: If you have custom local tools, you can configure them in `~/.gemini/config/mcp_config.json` to give your agent access to specific databases, APIs, or local services.
+
+## Conclusion: Elevate Your Development Workflow
+Transitioning to Antigravity CLI is more than just a software update; it's an upgrade to your entire development environment. By leveraging parallel subagents and the speed of a Go-native binary, you can focus more on high-level architecture and less on the minutiae of manual terminal management. The future of AI orchestration is here—it's fast, multi-threaded, and ready for your next big project.
+
+## References
+- [Official Antigravity CLI Documentation](https://antigravity.google)
+- [Dev.to: Antigravity CLI Walkthrough](https://dev.to)
+- [Medium: Migrating to Antigravity 2.0](https://medium.com)
+- [Pasquale Pillitteri: Antigravity CLI Technical Guide](https://pasqualepillitteri.it)

@@ -10,7 +10,110 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 28 May 2026 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 29 May 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Master the CLI: A Complete Guide to Google Antigravity (agy)</title>
+  <dc:creator>Gemini CLI</dc:creator>
+  <link>https://your-website-url.example.com/posts/antigravity-guide/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction-is-your-terminal-stuck-in-the-past" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-is-your-terminal-stuck-in-the-past">Introduction: Is Your Terminal Stuck in the Past?</h2>
+<p>The era of single-tasking AI is over. If you’ve been using the Gemini CLI, you know how powerful a terminal-based agent can be. But have you ever felt the need for speed—or wished your agent could handle multiple tasks at once without breaking a sweat? Meet <strong>Antigravity CLI (<code>agy</code>)</strong>, the high-performance, Go-based successor that turns your terminal into a multi-agent command center. Whether you’re a seasoned developer or just starting, this guide will show you how to harness its full potential.</p>
+</section>
+<section id="key-summary-why-you-should-switch-today" class="level2">
+<h2 class="anchored" data-anchor-id="key-summary-why-you-should-switch-today">Key Summary: Why You Should Switch Today</h2>
+<ol type="1">
+<li><strong>Parallel Orchestration</strong>: Run complex goals that spin up multiple specialized subagents simultaneously to tackle different parts of a project at once.</li>
+<li><strong>Lightning Performance</strong>: Built with Go, the new CLI offers near-instant startup times and significantly lower resource overhead.</li>
+<li><strong>Seamless Extensibility</strong>: Easily create custom tools using “Agent Skills” or connect to local servers via the Model Context Protocol (MCP).</li>
+</ol>
+</section>
+<section id="detailed-explanation-setting-up-and-using-antigravity" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-explanation-setting-up-and-using-antigravity">Detailed Explanation: Setting Up and Using Antigravity</h2>
+<section id="installation-getting-started-in-seconds" class="level3">
+<h3 class="anchored" data-anchor-id="installation-getting-started-in-seconds">1. Installation: Getting Started in Seconds</h3>
+<p>Installing Antigravity is designed to be a one-line process for any operating system. Open your terminal and run the appropriate command:</p>
+<ul>
+<li><p><strong>Windows (PowerShell)</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">irm</span> https<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">://</span>antigravity<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">google</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cli</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>install<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ps1</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">iex</span></span></code></pre></div></div></li>
+<li><p><strong>macOS / Linux</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">curl</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-fsSL</span> https://antigravity.google/cli/install.sh <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">|</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">bash</span></span></code></pre></div></div>
+<p>After the script finishes, restart your terminal. You can verify the installation by typing <code>agy --version</code>.</p></li>
+</ul>
+</section>
+<section id="terminal-mastery-commands-and-shortcuts" class="level3">
+<h3 class="anchored" data-anchor-id="terminal-mastery-commands-and-shortcuts">2. Terminal Mastery: Commands and Shortcuts</h3>
+<p>Once inside the <code>agy</code> environment, you have several powerful ways to interact with the agent and your system: - <strong>Run Shell Commands</strong>: You don’t need to exit the CLI to run system commands. Prefix any command with <code>!</code> to execute it directly (e.g., <code>!npm install</code> or <code>!ls -la</code>). - <strong>Slash Commands</strong>: Use built-in shortcuts like <code>/fork</code> to branch your conversation into a new workspace or <code>/inspect</code> to see active plugins and skills. - <strong>Asynchronous Workflows</strong>: For long-running tasks, use the <code>/goal</code> command. You can continue asking quick “By The Way” questions using <code>/BTW</code> while the main goal is being processed in the background.</p>
+</section>
+<section id="configuration-the-new-settings-standard" class="level3">
+<h3 class="anchored" data-anchor-id="configuration-the-new-settings-standard">3. Configuration: The New Settings Standard</h3>
+<p>Antigravity CLI replaces the traditional <code>.env</code> and <code>settings.json</code> manual edits with a more user-friendly interface. To manage your preferences, simply type: &gt; <code>/config</code> This command opens an interactive Terminal User Interface (TUI) where you can manage permissions, toggle features, and select your preferred models. Your settings are automatically synchronized and stored in <code>~/.gemini/antigravity-cli/settings.json</code>.</p>
+</section>
+<section id="custom-tools-agent-skills-and-mcp" class="level3">
+<h3 class="anchored" data-anchor-id="custom-tools-agent-skills-and-mcp">4. Custom Tools: Agent Skills and MCP</h3>
+<p>Extending the CLI is easier than ever. - <strong>Agent Skills</strong>: These are simple Markdown files that define custom agent behaviors. You can place them in <code>~/.gemini/antigravity-cli/skills/</code> for global use, or in your project’s <code>.agents/skills/</code> directory for project-specific commands. - <strong>MCP Servers</strong>: If you have custom local tools, you can configure them in <code>~/.gemini/config/mcp_config.json</code> to give your agent access to specific databases, APIs, or local services.</p>
+</section>
+</section>
+<section id="conclusion-elevate-your-development-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-elevate-your-development-workflow">Conclusion: Elevate Your Development Workflow</h2>
+<p>Transitioning to Antigravity CLI is more than just a software update; it’s an upgrade to your entire development environment. By leveraging parallel subagents and the speed of a Go-native binary, you can focus more on high-level architecture and less on the minutiae of manual terminal management. The future of AI orchestration is here—it’s fast, multi-threaded, and ready for your next big project.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><a href="https://antigravity.google">Official Antigravity CLI Documentation</a></li>
+<li><a href="https://dev.to">Dev.to: Antigravity CLI Walkthrough</a></li>
+<li><a href="https://medium.com">Medium: Migrating to Antigravity 2.0</a></li>
+<li><a href="https://pasqualepillitteri.it">Pasquale Pillitteri: Antigravity CLI Technical Guide</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>AI</category>
+  <category>CLI</category>
+  <category>Guide</category>
+  <category>Google</category>
+  <guid>https://your-website-url.example.com/posts/antigravity-guide/</guid>
+  <pubDate>Fri, 29 May 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Beyond Gemini: Embracing the Future with Antigravity CLI</title>
   <dc:creator>Gemini CLI</dc:creator>
